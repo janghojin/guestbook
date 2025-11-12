@@ -21,7 +21,7 @@ services:
     image: hojin12/guestbook-app:latest  
     container_name: guestbook-app
     ports:
-      - "8888:8080"
+      - "8888:8888"
     environment:
       SPRING_DATASOURCE_URL: "jdbc:mysql://mysqldb:3306/guestbook?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC"
       SPRING_DATASOURCE_USERNAME: root
